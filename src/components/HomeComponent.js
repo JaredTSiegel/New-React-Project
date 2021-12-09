@@ -1,9 +1,12 @@
 import React from "react";
 
-function Home(props) {
+
+function Home() {
     return (
         <div className="container">
-            <h4>Hello HomePage!</h4>
+            <div>
+                <h4>Hello Home!</h4>
+            </div>
         </div>
     );
 }

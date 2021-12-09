@@ -46,8 +46,20 @@
   background-color: black;
 }
 
+footer {
+  background-color: #152F4F;
+  color: white;
+  position: relative;
+  height: 100vh;
+  
+}
 
-
+body {
+  background-color: #040e20;
+  color: rgb(194, 8, 8);
+  padding: 40px;
+  text-align: center;
+}
 
 
 

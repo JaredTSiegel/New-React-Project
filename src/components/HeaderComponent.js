@@ -35,7 +35,7 @@ class Header extends Component {
                                 <NavLink className="nav-link" to="/aboutus">About</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink className="nav-link" to="/na">Pricing</NavLink>
+                                <NavLink className="nav-link" to="/">Pricing</NavLink>
                             </NavItem>
                             <NavItem>
                                 <NavLink className="nav-link" to="/https://www.spotify.com">The Mock Site</NavLink>
