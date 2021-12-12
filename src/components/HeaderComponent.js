@@ -24,7 +24,7 @@ class Header extends Component {
         return (
             <React.Fragment>
                 <Navbar dark sticky="top" expand="md">
-                    <NavbarBrand className="mr-auto" href="/"><img src="/assets/images/circle logo.png" height="30" width="30" alt="NuCamp Logo" />{' '}TruMusic</NavbarBrand>
+                    <NavbarBrand className="mr-auto" href="/"><img src="/images/circle logo.png" height="30" width="30" alt="NuCamp Logo" />{' '}TruMusic</NavbarBrand>
                     <NavbarToggler onClick={this.toggleNav} />
                     <Collapse isOpen={this.state.isNavOpen} navbar>
                         <Nav className="ml-auto" navbar>
@@ -35,13 +35,13 @@ class Header extends Component {
                                 <NavLink className="nav-link" to="/aboutus">About</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink className="nav-link" to="/">Pricing</NavLink>
+                                <NavLink className="nav-link" to="/home">Pricing</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink className="nav-link" to="/https://www.spotify.com">The Mock Site</NavLink>
+                                <NavLink className="nav-link" to={{ pathname: "https://www.spotify.com" }} target="_blank">The Mock Site</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink className="nav-link" to="/na">Contact Us</NavLink>
+                                <NavLink className="nav-link" to="/home">Contact Us</NavLink>
                             </NavItem>
                         </Nav>
                     </Collapse>

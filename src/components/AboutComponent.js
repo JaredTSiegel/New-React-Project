@@ -1,10 +1,19 @@
 import React from "react";
 
-function About(props) {
+function About() {
     return (
-        <div className="container">
-            <h4>Hello Aboutpage!</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <div className="purple">
+            <div class="container">
+                <h1 class="text-center mb-4"> The Developer</h1>
+                <p class="text-center"><strong>Jared Siegel</strong></p>
+                    <div class="d-flex justify-content-center">
+                        <img src="images/Jared picture 2nd.png" width="200px" height="325px" alt="Jared" />
+                    </div>
+                        <h5 class="text-center mt-5">The Intro</h5>
+                        <p class="text-center">by Jared Siegel</p>
+                        <p class="text-center p-1">Hello, everyone! My name is Jared. This is my second project. After my first intital project, I am working on another one. The first project I attempted was a website called Drake Shield Cyber Security. Unphased by the design, I decided to do another project to test my skills and practice what I already know. I still don't know everything, but I'm working on it as you read this page. Hopefully, I will start to understand the more advanced properties of HTML, CSS, and JavaScript. Thank you for reading and enjoy navigating the site.</p>
+                        <p class="text-center"><em>Links to my Github and Linkedin below</em></p>
+            </div>
         </div>
     );
 }

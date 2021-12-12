@@ -1,46 +1,3 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-
-
-
-
 
 .navbar-dark {
   background-color: black;
@@ -50,16 +7,29 @@ footer {
   background-color: #152F4F;
   color: white;
   position: relative;
-  height: 100vh;
+  height: 70vh;
   
 }
 
-body {
-  background-color: #040e20;
-  color: rgb(194, 8, 8);
-  padding: 40px;
-  text-align: center;
+body, html {
+  height: 100%;
+  }
+  .bg {
+  background-image: url("http://localhost:3000/images/trumusic.png");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+.purple {
+  background-color: blueviolet;
+  height: 120vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
 
 
 
