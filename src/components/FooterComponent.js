@@ -19,7 +19,6 @@ function Footer(props) {
                             <ul className="m-0 p-0 ml-3">
                                 <li><a href="/home">Home</a></li>
                                 <li><a href="/aboutus">The Developer</a></li>
-                                <li><a href="/home">Pricing</a></li>
                                 <li><a href="https://www.spotify.com" target="_blank" rel="noreferrer noopener">The Mock Site</a></li>
                                 <li><a href="/home">Contact</a></li>
                             </ul>

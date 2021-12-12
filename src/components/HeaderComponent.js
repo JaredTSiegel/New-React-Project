@@ -35,13 +35,10 @@ class Header extends Component {
                                 <NavLink className="nav-link" to="/aboutus">About</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink className="nav-link" to="/home">Pricing</NavLink>
-                            </NavItem>
-                            <NavItem>
                                 <NavLink className="nav-link" to={{ pathname: "https://www.spotify.com" }} target="_blank">The Mock Site</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink className="nav-link" to="/home">Contact Us</NavLink>
+                                <NavLink className="nav-link" to="/contactus">Contact Us</NavLink>
                             </NavItem>
                         </Nav>
                     </Collapse>

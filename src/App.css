@@ -7,7 +7,7 @@ footer {
   background-color: #152F4F;
   color: white;
   position: relative;
-  height: 70vh;
+  height: auto;
   
 }
 
@@ -16,7 +16,7 @@ body, html {
   }
   .bg {
   background-image: url("http://localhost:3000/images/trumusic.png");
-  height: 100vh;
+  height: auto;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

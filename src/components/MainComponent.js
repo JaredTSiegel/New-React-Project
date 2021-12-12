@@ -4,6 +4,7 @@ import Home from "./HomeComponent";
 import About from "./AboutComponent";
 import Footer from "./FooterComponent";
 import { Redirect, Route, Switch } from "react-router";
+import Contact from './ContactComponent';
 
 
 
@@ -23,6 +24,7 @@ class Main extends Component {
                     <Switch>
                         <Route path='/home' component={HomePage} />
                         <Route exact path='/aboutus' render={() => <About />} />
+                        <Route exact path='/contactus' component={Contact} />
                         <Redirect to='/home' />
                     </Switch>
                 <Footer />
